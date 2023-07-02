@@ -1,9 +1,12 @@
+
 {
     "name": "tugayilhan/pterodactyl",
     "license": "MIT",
     "description": "Unoffical Php Api for the pterodactly game panel",
-    "version": "1.0.0",
     "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
     "authors": [
         {
             "name": "Tugay İlhan",
@@ -12,14 +15,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tugayilhan\\Pterodactly\\": "src/"
-        },
-        "files": ["src/helpers.php"]
+            "Tugayilhan\\pterodactly\\": "src/"
+        }
     },
-  
-    "require": {
-        "tugayilhan/pterodactly-php-api": "1.1.0"
-    }
-   
-   
+    "minimum-stability": "dev"
 }
