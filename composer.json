@@ -1,6 +1,6 @@
 
 {
-    "name": "tugayilhan/pterodactyl",
+    "name": "tugayilhan/pterodactyl-api-php",
     "license": "MIT",
     "description": "Unoffical Php Api for the pterodactly game panel",
     "type": "library",
