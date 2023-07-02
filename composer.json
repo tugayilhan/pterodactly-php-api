@@ -1,5 +1,5 @@
 {
-    "name": "tugayilhan/pterodactly-php-api",
+    "name": "tugayilhan/pterodactyl",
     "description": "Unoffical Php Api for the pterodactly game panel",
     "version": "1.0.0",
     "type": "library",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vendor\\Namespace\\": "src/"
+            "Tugayilhan\\Pterodactly\\": "src/"
         }
     }
    
