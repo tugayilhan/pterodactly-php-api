@@ -15,6 +15,10 @@
             "Tugayilhan\\Pterodactly\\": "src/"
         },
         "files": ["src/helpers.php"]
+    },
+  
+    "require": {
+        "tugayilhan/pterodactly-php-api": "1.0.0"
     }
    
 }
