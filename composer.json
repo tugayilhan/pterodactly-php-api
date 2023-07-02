@@ -19,7 +19,7 @@
   
     "require": {
         "tugayilhan/pterodactly-php-api": "dev-main"
-    },
+    }
    
    
 }
