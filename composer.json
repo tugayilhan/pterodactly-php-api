@@ -18,7 +18,7 @@
     },
   
     "require": {
-        "tugayilhan/pterodactly-php-api": "dev-main"
+        "tugayilhan/pterodactly-php-api": "1.1.0"
     }
    
    
