@@ -1,22 +1,45 @@
 
 {
     "name": "tugayilhan/pterodactyl-api-php",
-    "license": "MIT",
     "description": "Unoffical Php Api for the pterodactly game panel",
     "type": "library",
     "require": {
-        "php": ">=5.3.0"
-    },
+        "php": ">=7.1.3"
+
+      },
+    "license": "MIT",
     "authors": [
         {
             "name": "Tugay İlhan",
             "email": "netizm@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Tugayilhan\\pterodactly\\": "src/"
-        }
-    },
-    "minimum-stability": "dev"
+            "Tugayilhan\\Pterodactly\\": "src/"
+        },
+        "files": [
+            "src/Pterodactly.php",
+            "src/EndPoints/Actions.php",
+            "src/EndPoints/Applications.php",
+            "src/EndPoints/Applications/LocationsActions.php",
+            "src/EndPoints/Applications/NestsActions.php",
+            "src/EndPoints/Applications/NodesActions.php",
+            "src/EndPoints/Applications/ServersActions.php",
+            "src/EndPoints/Applications/UsersActions.php",
+            "src/EndPoints/Clients.php",
+            "src/EndPoints/Clients/ServerActions.php",
+            "src/EndPoints/Clients/AccountActions.php",
+            "src/EndPoints/Clients/Server/BackupsActions.php",
+            "src/EndPoints/Clients/Server/DatabaseActions.php",
+            "src/EndPoints/Clients/Server/FilesActions.php",
+            "src/EndPoints/Clients/Server/NetworkActions.php",
+            "src/EndPoints/Clients/Server/SchedulesActions.php",
+            "src/EndPoints/Clients/Server/SettingsActions.php",
+            "src/EndPoints/Clients/Server/UsersActions.php",
+            "src/EndPoints/Clients/Server/StartupActions.php"
+          ]
+    }
+
 }
